@@ -1,0 +1,16 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    .container-item {
+        display: flex;
+        align-items: baseline;
+
+        .mat-headline-5,
+        .mat-body-1 {
+            margin: 0;
+        }
+    }
+}
